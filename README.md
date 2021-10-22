@@ -1,4 +1,4 @@
 # architectural_blog-slider-
 Верстка сайта-блога по макету figma
 
-посмотреть сайт:
+Посмотреть сайт: https://klimsupermachine.github.io/architectural_blog-slider-/
