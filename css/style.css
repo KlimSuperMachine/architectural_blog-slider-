@@ -232,6 +232,37 @@ body {
             justify-content: space-between;
     margin: 0 0 20px 0; }
 
+.Old-build {
+  padding: 100px 0 100px 0; }
+  .Old-build a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #000;
+    margin-top: 20px; }
+  .Old-build a:hover {
+    border-bottom: 1px solid red; }
+  .Old-build__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .Old-build__religious {
+    margin-right: 55px; }
+  .Old-build__tourist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .Old-build__left img:first-child {
+    margin: 0 0 15px 0; }
+
 .form-mailing {
   padding: 94px 0;
   background-color: #f3f3f7; }
