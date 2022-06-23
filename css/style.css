@@ -556,7 +556,7 @@ body {
       opacity: 1; }
     .main-content .news-list li button:after {
       content: '';
-      background: url("../../arch_blog/img/news/Vector.svg") 0 0 no-repeat;
+      background: url("../img/news/Vector.svg") 0 0 no-repeat;
       width: 10px;
       height: 13px;
       position: absolute;
@@ -602,3 +602,73 @@ body {
     color: #333333; }
   .main-content .number-page a:hover {
     color: #d90000; }
+
+.main-content h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 0 40px 0; }
+
+.main-content .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 10px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .main-content .author span {
+    color: #D90000; }
+  .main-content .author li {
+    position: relative;
+    width: 210px;
+    height: 37px;
+    padding: 0 0 0 48px; }
+  .main-content .author li:nth-child(1)::before {
+    content: '';
+    background: url("../../arch_blog/img/building/1.png") 0 0 no-repeat;
+    position: absolute;
+    width: 32px;
+    height: 34px;
+    top: 0;
+    left: 0; }
+  .main-content .author li:nth-child(2)::before {
+    content: '';
+    background: url("../../arch_blog/img/building/2.png") 0 0 no-repeat;
+    position: absolute;
+    width: 33px;
+    height: 34px;
+    top: 0;
+    left: 0; }
+  .main-content .author li:nth-child(3)::before {
+    content: '';
+    background: url("../../arch_blog/img/building/3.png") 0 0 no-repeat;
+    position: absolute;
+    width: 32px;
+    height: 34px;
+    top: 0;
+    left: 0; }
+
+.main-content .bold {
+  padding: 55px 0 0 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 170%;
+  color: #333333; }
+
+.main-content .text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  color: #333333;
+  padding: 40px 0 0 0; }
+  .main-content .text p:nth-child(2) {
+    margin: 2em 0 2em 0; }
