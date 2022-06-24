@@ -634,7 +634,7 @@ body {
     padding: 0 0 0 48px; }
   .main-content .author li:nth-child(1)::before {
     content: '';
-    background: url("../../arch_blog/img/building/1.png") 0 0 no-repeat;
+    background: url("../img/building/1.png") 0 0 no-repeat;
     position: absolute;
     width: 32px;
     height: 34px;
@@ -642,7 +642,7 @@ body {
     left: 0; }
   .main-content .author li:nth-child(2)::before {
     content: '';
-    background: url("../../arch_blog/img/building/2.png") 0 0 no-repeat;
+    background: url("../img/building/2.png") 0 0 no-repeat;
     position: absolute;
     width: 33px;
     height: 34px;
@@ -650,7 +650,7 @@ body {
     left: 0; }
   .main-content .author li:nth-child(3)::before {
     content: '';
-    background: url("../../arch_blog/img/building/3.png") 0 0 no-repeat;
+    background: url("../img/building/3.png") 0 0 no-repeat;
     position: absolute;
     width: 32px;
     height: 34px;
@@ -672,3 +672,104 @@ body {
   padding: 40px 0 0 0; }
   .main-content .text p:nth-child(2) {
     margin: 2em 0 2em 0; }
+
+.main-content .foto-block {
+  padding: 50px 0 0 0; }
+  .main-content .foto-block h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 170%;
+    color: #000000;
+    letter-spacing: normal; }
+  .main-content .foto-block .foto-block__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: hidden; }
+  .main-content .foto-block .foto__left {
+    margin: 0 20px 0 0; }
+    .main-content .foto-block .foto__left p {
+      margin: 20px 0 0 0;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 170%;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      color: #000000; }
+      .main-content .foto-block .foto__left p span {
+        ont-weight: 400;
+        font-size: 14px;
+        line-height: 170%;
+        letter-spacing: normal;
+        text-transform: none;
+        color: rgba(0, 0, 0, 0.5); }
+  .main-content .foto-block .foto__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .main-content .foto-block .foto__right img:last-child {
+      margin: 20px 0 0 0; }
+
+.main-content .text2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  color: #333333;
+  padding: 50px 0 0 0; }
+  .main-content .text2 p:nth-child(2),
+  .main-content .text2 p:nth-child(3) {
+    margin: 2em 0 2em 0; }
+
+.read-with {
+  padding: 120px 0 0 0; }
+  .read-with h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 170%;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #000000; }
+  .read-with .read-list {
+    padding: 27px 0 120px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .read-with .read-list a {
+      display: block; }
+  .read-with .read-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 305px; }
+    .read-with .read-list-item .description {
+      position: relative;
+      margin: 0 0 0 18px; }
+      .read-with .read-list-item .description p:first-child {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #333333; }
+      .read-with .read-list-item .description p:last-child {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+        color: #333333; }
